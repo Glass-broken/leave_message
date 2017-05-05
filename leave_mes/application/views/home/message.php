@@ -58,6 +58,7 @@
 
     <table>
     <?php
+    echo "hello";
     $this->load->model('database_use');
     $i = 1;
     foreach($result->result_array() as $row) {
